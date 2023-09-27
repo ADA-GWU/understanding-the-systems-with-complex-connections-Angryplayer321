@@ -1,1 +1,2 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Bp585G7b)
+Commit history:
+27.09.23 - Added the template code for basic socket programming in java language, further on I ll be modifiying these server and client applications according the assignment.
