@@ -1,2 +1,3 @@
 Commit history:
 27.09.23 - Added the template code for basic socket programming in java language, further on I ll be modifiying these server and client applications according the assignment.
+29.09.23 - Modified applications in such way that now you give port numbers to Servers at the start of the application and and give 3 of the portnumbers to client in the same way. Client then enters the values and application sends those values to random servers. There is some error occuring in the code. I suspect its because of the inappropriate close of the Servers. Tomorrow I will collect all connections to sockets in an array and shut them all once.

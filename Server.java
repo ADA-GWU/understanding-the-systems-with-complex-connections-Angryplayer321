@@ -1,6 +1,11 @@
 // A Java program for a Serverside
-import java.net.*;
-import java.io.*;
+
+import java.io.BufferedInputStream;
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Scanner;
 public class Server
 {
 //initialize socket and input stream
@@ -24,29 +29,30 @@ String line = "";
 // reads message from client until "Over" is sent
 while (!line.equals("Over"))
 {
-try
-{
-line = in.readUTF();
-System.out.println(line);
- 
- 
- 
+try {
+    line = in.readUTF();
+    System.out.println(Integer.parseInt(line) * 2);
+
+
 }
 catch(IOException i)
 {
 System.out.println(i);
 }
 }
-System.out.println("Closing connection");
+    System.out.println("Closing connection");
 // close connection
-socket.close();
-in.close();
+    socket.close();
+    in.close();
+} catch (IOException i) {
+    System.out.println(i);
 }
-catch(IOException i){
-System.out.println(i);
 }
-}
-public static void main(String args[]){
-Server server = new Server(5000);
-}
+
+    public static void main(String[] args) {
+        System.out.println("Please enter the server port!");
+        Scanner sc = new Scanner(System.in);
+        var portNumber = sc.nextInt();
+        Server server = new Server(portNumber);
+    }
 }
