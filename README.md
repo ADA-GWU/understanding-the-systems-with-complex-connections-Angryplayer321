@@ -31,9 +31,20 @@ Source codes of the project are Server.java and Client.java.
 
 + [`Client.java`](/Client.java)
 
-    This code connects to the 3 servers created by `Server.java`. Client connects to these 3 servers by typing their ports after running the code.
+    This code connects to the 3 servers created by [`Server.java`](/Server.java). Client connects to these 3 servers by typing their ports after running the code.
 
     ![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/8473b854-3544-4f6c-94f7-cc02b99e8eb5)
 
+    After typing the ports the application indicates the server it is currently connected and where the number you type will go. 
+
+    ![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/849c65b7-b348-49b3-a617-814346c44a1b)
+
+    In order to close the Client and all Server applications just type **"Over"**.
+
+    ![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/8ac89886-a6b6-4512-ac6d-88020bb7b822)
+
+    If the input is wrong(not in integer format) Server application will throw an error. You will get error but application will still work.
+
+    ![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/52c95fd2-f69d-41fa-850d-69092246ae9f)
 
    
