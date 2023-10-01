@@ -29,6 +29,11 @@ Source codes of the project are Server.java and Client.java.
 
     When you type and enter the port it starts listening for the client.
 
+    Whenever a client types some integer, server displays the doubled value of the integer.
+
+    Display of Server 0 on port 1001:
+    ![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/54f9eb30-4c69-40b4-a616-5eda4c99f185)
+
 + [`Client.java`](/Client.java)
 
     This code connects to the 3 servers created by [`Server.java`](/Server.java). Client connects to these 3 servers by typing their ports after running the code.
