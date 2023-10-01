@@ -35,7 +35,7 @@ public class Client {
         while (true) {
             Random random = new Random();
             serverNumber = random.nextInt(portNumbers.length);
-            System.out.println("Connected to Server " + serverNumber + " on port : " + portNumbers[serverNumber]);
+            System.out.println("Connected to Server " + serverNumber + " on port : " + portNumbers[serverNumber] + "\nEnter the value!");
             // takes input from terminal
             input = new DataInputStream(System.in);
             // sends output to the socket
@@ -68,12 +68,14 @@ public class Client {
     }
 
     public static void main(String[] args) {
-        System.out.println("Please enter 1st, 2nd and 3rd servers' port numbers in according sequence!");
+        System.out.println("Please enter 1st, 2nd and 3rd servers' port numbers in according sequence!\n Type \"Over\" in order to close the applications!");
         Scanner sc = new Scanner(System.in);
         int[] portNumbers = new int[3];
         for (int i = 0; i < portNumbers.length; i++) {
             portNumbers[i] = sc.nextInt();
         }
+
+
 
         Client client = new Client("127.0.0.1", portNumbers);
 

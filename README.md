@@ -82,4 +82,11 @@ if you do not have java please install it following this link:
 
 **6.** Enter the values in Client and see their doubles in Servers.
 
+**7.** In order to close the all applications, just type **"Over"** in Client application.
+
+![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/801bc927-2e48-4222-bb13-c9927ce404db)
+
+
+[Demo video](https://youtu.be/3w-GX95XyEQ)
+
    
