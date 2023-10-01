@@ -22,7 +22,7 @@ This project was done solely for understanding the principles of systems with co
     
 + **30.09.23**
 
-As I documented yesterday, I did update the code that know I create the connections and collect them in array beforehand then use them. The problem for yesterday's errors was that when Client typed `'Over'` which is eliminating string for the application. It only send the message the current
+As I documented yesterday, I did update the code that know I create the connections and collect them in array beforehand then use them. The problem for yesterday's errors was that when Client typed `'Over'` which is eliminating string for the application. It only sent the message to the current server so others crushed. Fixed it.
 
 + **01.10.23**
 
