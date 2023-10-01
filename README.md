@@ -3,6 +3,13 @@
 
 This project was done solely for understanding the principles of systems with complex connections.
 
+# Contents
+
++ [**Project History**](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/blob/main/README.md#project-history)
++ [**Documentation**](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/blob/main/README.md#documentation)
++ [**Demo**](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/blob/main/README.md#Demo)
+    + [**Demo Video**](https://youtu.be/3w-GX95XyEQ)
+
 
 ## Project History
 
