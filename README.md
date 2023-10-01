@@ -21,10 +21,19 @@ As I documented yesterday, I did update the code that know I create the connecti
 ## Documentation
 Source codes of the project are Server.java and Client.java.
 
-+ `Server.java`
++ [`Server.java`](Server.java)
 
-    This code creates server socket in the locelhost. When you run it, it asks for the port to run on.
+    This code creates server socket in the localhost. When you run it, it asks for the port to run on.
     
     ![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/78f992fd-23e0-4f65-ab88-6b409e61c772)
+
+    When you type and enter the port it starts listening for the client.
+
++ [`Client.java`](/Client.java)
+
+    This code connects to the 3 servers created by `Server.java`. Client connects to these 3 servers by typing their ports after running the code.
+
+    ![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/8473b854-3544-4f6c-94f7-cc02b99e8eb5)
+
 
    
