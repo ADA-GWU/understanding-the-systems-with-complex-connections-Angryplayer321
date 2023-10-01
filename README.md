@@ -17,6 +17,9 @@ This project was done solely for understanding the principles of systems with co
 
 As I documented yesterday, I did update the code that know I create the connections and collect them in array beforehand then use them. The problem for yesterday's errors was that when Client typed `'Over'` which is eliminating string for the application. It only send the message the current
 
++ **01.10.23**
+
+Worked mainly on Readme file. Miner tweaks were done to code(Print some instructions in the terminal).
 
 ## Documentation
 Source codes of the project are Server.java and Client.java.
@@ -51,5 +54,32 @@ Source codes of the project are Server.java and Client.java.
     If the input is wrong(not in integer format) Server application will throw an error. You will get error but application will still work.
 
     ![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/52c95fd2-f69d-41fa-850d-69092246ae9f)
+
+## Demo
+
+**1.** Check if your device has the Java. Type in your terminal or cmd.
+```
+    java --version
+```
+Output should be something like:
+
+![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/507bb75b-319a-4978-a040-14f104650ecd)
+
+if you do not have java please install it following this link:
+[Java installation guide](https://www.java.com/en/download/help/download_options.html)
+
+**2.** Clone the repository.
+
+**3.** Open 4 terminals/control panels and go to project directory in each of them.
+
+![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/e0ed0a55-bd47-4b10-aa23-745b820ec4a0)
+
+**4.** Type `java Server` in 3 of them and type ports for each server. In my case, ports are 1001,1002,1003.
+
+**5.** Type `java Client` and add 3 ports you assigned to servers above.
+
+![image](https://github.com/ADA-GWU/understanding-the-systems-with-complex-connections-Angryplayer321/assets/106179166/c48e2f51-5407-4d6d-b1fb-a8ed1e96cf85)
+
+**6.** Enter the values in Client and see their doubles in Servers.
 
    
